@@ -114,7 +114,7 @@ public class Cercle {
 
         double distance = Position.distance(cercle1.centre, cercle2.centre);
 
-        // Cas de la collision inélastique
+        // Cas de la collision élastique
         if (distance < 2 * AnimationMain.RAYON) {
             Position normale = new Position(Position.deplacement(cercle2.centre, cercle1.centre));
             normale.normaliser();
