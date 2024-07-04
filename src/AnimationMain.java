@@ -114,6 +114,9 @@ public class AnimationMain extends JPanel implements ActionListener {
         // Visibilité de la fenêtre
         frame.setVisible(true);
 
+        // Couleur de fond
+        frame.setBackground(Color.BLACK);
+
         // Fluidité de l'affichage
         frame.getToolkit().sync();
     }
